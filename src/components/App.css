@@ -1,0 +1,34 @@
+.bg {
+  /* width: 100%;
+  height: 100vh; */
+  background: url(image/sky.jpg) center no-repeat;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  z-index: 1;
+}
+.App {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+video {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  z-index: 1;
+}
